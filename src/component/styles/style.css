@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Mono&family=Rowdies&display=swap');
+
+
+
+
+
+
+header .caption-header {
+    text-align: center;
+}
+
+.caption-header h3 {
+    margin-top: 30px;
+    font-size: 80px;
+    color: #ffd105;
+
+}
+
+.header-image {
+    background-image: url("../images//background-foods.jpg");
+    filter: saturate(50%);
+    margin-left: 50px;
+    margin-right: 50px;
+    background-size: cover;
+    height: 200px;
+}
+
+.header-image h3 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 60px;
+    color: rgb(43, 92, 226);
+
+}
+
+.search-app {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.search-app input {
+    width: 400px;
+    height: 40px;
+    border-radius: 0.5rem;
+    background-color: #e2dedf;
+}
+
+.search-app button {
+    padding: 10px 15px;
+    background-color: rgb(43, 92, 226);
+    border: 2px solid #2a363b;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.search-app button:hover {
+    cursor: pointer;
+    background-color: #ffd105;
+
+}
+
+
+

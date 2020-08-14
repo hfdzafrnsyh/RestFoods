@@ -1,0 +1,232 @@
+@import "../component/styles/style.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Rowdies&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #292929;
+    font-family: 'Rowdies', cursive;
+  
+}
+
+
+
+navs-app {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 8px solid #ffd105;
+}
+
+
+
+
+header-app .caption-header{
+  margin-top: 120px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: rgb(43, 92, 226);
+    height: 80px;
+    width: 100%;
+    margin-top: 200px;
+}
+
+footer p,
+span {
+    color: #e2dedf;
+    padding-top: 30px;
+}
+
+.menu-category {
+    display: flex;
+    height: auto;
+    text-align: center;
+    margin: 100px 100px;
+}
+
+.category {
+
+    flex: auto;
+    width: 50%;
+}
+
+.category h2 {
+    color: #ffd105
+}
+
+.category img {
+    width: 300px;
+    height: 300px;
+}
+
+.categories {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 25px 25px;
+    margin: 30px 30px;
+    background-color:  rgb(43, 92, 226);
+    border-radius: 1rem;
+    box-shadow: 1px 1px 3px 3px #efeeee;
+    color: #ffd105;
+    text-align: center;
+
+}
+
+.meals-item img {
+    width: 400px;
+}
+
+.meals-item {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #efeeee;
+    box-shadow: 2px 2px 4px 4px  #666666;
+    text-align: center;
+    padding: 50px 50px;
+    border-radius: 0.5rem;
+    display: flex;
+}
+
+.meals-info {
+    flex: auto;
+    width: 50%;
+}
+.meals-info h2 {
+    color: #ffd105;
+}
+
+.message-error p{
+    font-size: 27px;
+    text-align: center;
+    color: rgb(43, 92, 226);
+    margin: 30px 30px;
+}
+
+
+.button-categories {
+    margin:15px 15px;
+}
+
+/* responsive */
+
+@media screen and (max-width:768px) {
+
+
+    .header-image{
+        height:150px;
+    }
+
+    .menu-category {
+        flex-wrap: wrap;
+        margin: 20px 20px;
+    }
+    .category img {
+        width: 200px;
+        height: 150px;
+    }
+
+   .meals-item{
+      flex-wrap: wrap;
+      margin-left: 100px;
+      margin-right: 100px;
+   }
+
+   .meals-info{
+       width: 100%;
+       margin: 0 auto;
+     padding: 10px 10px;
+   }
+ 
+}
+
+
+@media screen and (max-width:678px) {
+
+
+    .header-image {
+        margin-left: 30px;
+        margin-right: 30px;
+    
+    }
+
+    .caption-header h3 {
+        margin-top: 30px;
+        font-size: 50px;
+        color: #ffd105;
+
+    }
+
+    .header-image h3 {
+        font-size: 25px;
+        text-align: center;
+        padding-top: 60px;
+        color: rgb(43, 92, 226);
+
+    }
+
+
+    .search-app {
+        margin-bottom: 30px;
+    }
+
+    .search-app input {
+        width: 250px;
+        height: 40px;
+        border-radius: 0.5rem;
+        background-color: #e2dedf;
+    }
+
+    .search-app button {
+        padding: 5px 10px;
+        background-color: rgb(43, 92, 226);
+        border: 2px solid #2a363b;
+        color: white;
+        border-radius: 0.5rem;
+    }
+
+    .menu-category {
+        flex-wrap: wrap;
+        margin: 20px 20px;
+    }
+    
+    .category {
+        width: 100%;
+    }
+    
+
+    .category img {
+       width: 100%;
+      height: 300px;
+     
+    }
+
+   .meals-item{
+      flex-wrap: wrap;
+      margin-left:50px;
+      margin-right: 50px;
+ 
+    
+   }
+    .meals-item img {
+        width: 100%;
+    
+    }
+   .meals-info{
+       width: 100%;
+       margin: 0 auto;
+    padding: 10px 10px;
+   }
+ 
+   .message-error p{
+       font-size: 20px;
+   }
+}
