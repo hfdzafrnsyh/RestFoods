@@ -55,8 +55,6 @@ const main = () => {
 
 
 
-    // nav
-    
 
     // footer 
 
